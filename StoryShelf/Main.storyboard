@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="197">
+                                <rect key="frame" x="0.0" y="361" width="414" height="81"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <state key="normal" title="Adventure ">
+                                    <color key="titleColor" red="1" green="0.43605345487594599" blue="0.529363572597504" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1203" kind="show" id="1328"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="198">
+                                <rect key="frame" x="0.0" y="647" width="414" height="78"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.43605345487594599" blue="0.529363572597504" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <state key="normal" title="Create Your Own Story ">
+                                    <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3218" kind="show" id="3354"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coverpage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="199">
+                                <rect key="frame" x="0.0" y="67" width="414" height="273"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="397">
+                                <rect key="frame" x="0.0" y="457" width="414" height="78"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <state key="normal" title="Horror ">
+                                    <color key="titleColor" red="1" green="0.38600599765777599" blue="0.43821066617965698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue id="10913" destination="10527" kind="show"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12964">
+                                <rect key="frame" x="0.0" y="555" width="414" height="78"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <state key="normal" title="Fiction">
+                                    <color key="titleColor" red="1" green="0.38600599765777599" blue="0.43821066617965698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue id="13015" destination="11732" kind="show"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.8374180198" green="0.8374378085" blue="0.8374271393" alpha="1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1202">
+            <objects>
+                <navigationController id="1203" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1205">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1212" kind="relationship" relationship="rootViewController" id="1424"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1206" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="687" y="-2"/>
+        </scene>
+        <!--Adventure Stories-->
+        <scene sceneID="1211">
+            <objects>
+                <viewController id="1212" customClass="AdventureViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1209"/>
+                        <viewControllerLayoutGuide type="bottom" id="1210"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1213">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1429">
+                                <rect key="frame" x="0.0" y="70" width="414" height="666"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="snakes.png" translatesAutoresizingMaskIntoConstraints="NO" id="1430">
+                                        <rect key="frame" x="0.0" y="8" width="414" height="222"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1431">
+                                        <rect key="frame" x="0.0" y="314" width="414" height="290"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.99776262044906605" blue="0.84000784158706698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">The kingdom of Vijaygarh had a wise and kind King. People were happy. But the King himself was sad and worried. A devilish snake had entered his son’s body. Neither medicine nor magic worked to cure his son. 
+
+When the Prince grew up, he thought, “It is because of me that my father worried." And one day, he left the palace. Wandering, he came to another kingdom. He found a desolate temple and started living there. He begged for food. 
+
+The King of that kingdom was cruel. But he had a kind and beautiful daughter. The King was unhappy with his daughter. That girl was always ridiculing her father’s hard work. The King thought, “She is always talking to me low of my hard work. I must marry her to a beggar. Then she will know what hard work is." 
+
+So, when the beggar Prince came to beg for food in the Palace, the cruel King forced him to marry his daughter. The Prince and his new bride started for the desolate temple. On their way, they stopped to take rest. The Princess went around in search of food, while her husband went to sleep. 
+
+When the Princess came back, she was shocked to see a snake sitting on her husband’s mouth. On a mount nearby sat another snake. They were talking among themselves. “Why do not you leave the body of the Prince? He is so kind and gentle," said the snake sitting on the mound. “You too are evil! You attack passers-by. You should not be telling me what to do," replied the snake sitting on the mouth of the Prince. 
+
+The Princess killed both the snakes with all her courage. When her husband woke up, she told him about the two snakes. The Prince was happy. Then he told her who he really was. They set off to the Prince’s palace. The King was delighted to see his son. When the King learned that the devilish snake was killed, his joy knew no bounds. The Prince and the Princess lived happily for a long time. After few years, the Kingdom celebrated the day on which the Royal couple gave birth to twins of one boy and one girl. </string>
+                                        <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Snake And The Prince" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1432">
+                                        <rect key="frame" x="0.0" y="255" width="414" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.66591393947601296" blue="0.70364075899124101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                        <color key="textColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2031">
+                                        <rect key="frame" x="0.0" y="612" width="414" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                        <state key="normal" title="Home">
+                                            <color key="titleColor" red="1" green="0.99776262044906605" blue="0.84000784158706698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                            <view key="view" contentMode="scaleToFill" id="7304" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7305">
+                                        <rect key="frame" x="0.0" y="70" width="414" height="666"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="snakes.png" translatesAutoresizingMaskIntoConstraints="NO" id="7306">
+                                                <rect key="frame" x="0.0" y="16" width="414" height="222"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7307">
+                                                <rect key="frame" x="0.0" y="314" width="414" height="290"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.99776262044906605" blue="0.84000784158706698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">The kingdom of Vijaygarh had a wise and kind King. People were happy. But the King himself was sad and worried. A devilish snake had entered his son’s body. Neither medicine nor magic worked to cure his son. 
+
+When the Prince grew up, he thought, “It is because of me that my father worried." And one day, he left the palace. Wandering, he came to another kingdom. He found a desolate temple and started living there. He begged for food. 
+
+The King of that kingdom was cruel. But he had a kind and beautiful daughter. The King was unhappy with his daughter. That girl was always ridiculing her father’s hard work. The King thought, “She is always talking to me low of my hard work. I must marry her to a beggar. Then she will know what hard work is." 
+
+So, when the beggar Prince came to beg for food in the Palace, the cruel King forced him to marry his daughter. The Prince and his new bride started for the desolate temple. On their way, they stopped to take rest. The Princess went around in search of food, while her husband went to sleep. 
+
+When the Princess came back, she was shocked to see a snake sitting on her husband’s mouth. On a mount nearby sat another snake. They were talking among themselves. “Why do not you leave the body of the Prince? He is so kind and gentle," said the snake sitting on the mound. “You too are evil! You attack passers-by. You should not be telling me what to do," replied the snake sitting on the mouth of the Prince. 
+
+The Princess killed both the snakes with all her courage. When her husband woke up, she told him about the two snakes. The Prince was happy. Then he told her who he really was. They set off to the Prince’s palace. The King was delighted to see his son. When the King learned that the devilish snake was killed, his joy knew no bounds. The Prince and the Princess lived happily for a long time. After few years, the Kingdom celebrated the day on which the Royal couple gave birth to twins of one boy and one girl. </string>
+                                                <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Snake And The Prince" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7308">
+                                                <rect key="frame" x="0.0" y="255" width="414" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.66591393947601296" blue="0.70364075899124101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                                <color key="textColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7309">
+                                                <rect key="frame" x="0.0" y="612" width="414" height="46"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                                <state key="normal" title="Home">
+                                                    <color key="titleColor" red="1" green="0.99776262044906605" blue="0.84000784158706698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue id="9856" destination="BYZ-38-t0r" kind="show"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.8374180198" green="0.8374378085" blue="0.8374271393" alpha="1"/>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="1" alpha="1"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="1" alpha="1"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Adventure Stories" largeTitleDisplayMode="always" id="1423">
+                        <barButtonItem key="backBarButtonItem" title="Home " id="1426"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1214" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1266" y="-13"/>
+        </scene>
+        <!--Creation Time -->
+        <scene sceneID="2992">
+            <objects>
+                <viewController id="2993" customClass="EntryFieldVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2990"/>
+                        <viewControllerLayoutGuide type="bottom" id="2991"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2994">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title Of the story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3470">
+                                <rect key="frame" x="0.0" y="124" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <color key="textColor" red="0.93784695863723799" green="0.91643851995468095" blue="0.67247676849365201" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's Begin " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3471">
+                                <rect key="frame" x="0.0" y="264" width="414" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.58105844259999995" green="0.12855249639999999" blue="0.57453137639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <color key="textColor" red="0.96035963296890303" green="0.91629749536514304" blue="0.69413089752197299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="enter the title here " borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3683">
+                                <rect key="frame" x="24" y="200" width="366" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.96516877412795998" blue="0.73254251480102495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" colorSpace="custom" customColorSpace="sRGB" red="0.3236978054" green="0.1063579395" blue="0.574860394" alpha="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3684">
+                                <rect key="frame" x="0.0" y="326" width="414" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.98136347532272294" blue="0.86144977807998702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.58105844259999995" green="0.12855249639999999" blue="0.57453137639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3692">
+                                <rect key="frame" x="0.0" y="697" width="414" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58105844259999995" green="0.12855249639999999" blue="0.57453137639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <state key="normal" title="Home ">
+                                    <color key="titleColor" red="0.94445580244064298" green="0.96434587240219105" blue="0.61563062667846702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="3823"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4254">
+                                <rect key="frame" x="0.0" y="592" width="414" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58105844259999995" green="0.12855249639999999" blue="0.57453137639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <state key="normal" title="Save My story">
+                                    <color key="titleColor" red="0.94445580244064298" green="0.96434587240219105" blue="0.61563062667846702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4478">
+                                <rect key="frame" x="0.0" y="644" width="414" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58105844259999995" green="0.12855249639999999" blue="0.57453137639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <state key="normal" title="Display My Story ">
+                                    <color key="titleColor" red="0.94445580244064298" green="0.96434587240219105" blue="0.61563062667846702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue id="4853" destination="4705" kind="show"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Creation Time " id="3467"/>
+                    <connections>
+                        <outlet property="DisplayStories" destination="4478" id="name-outlet-4478"/>
+                        <outlet property="savebtn" destination="4254" id="name-outlet-4254"/>
+                        <outlet property="storycontent" destination="3684" id="name-outlet-3684"/>
+                        <outlet property="storytitle" destination="3683" id="name-outlet-3683"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2995" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3691">
+                    <rect key="frame" x="798" y="1528" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+            </objects>
+            <point key="canvasLocation" x="635" y="1049"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3217">
+            <objects>
+                <navigationController id="3218" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3220">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2993" kind="relationship" relationship="rootViewController" id="3468"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3221" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9" y="1068"/>
+        </scene>
+        <scene sceneID="4704">
+            <objects>
+                <tableViewController id="4705" sceneMemberID="viewController" customClass="DisplayStoryClass">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4706">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.996013462543488" green="1" blue="0.79417097568512" alpha="1"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="4709" reuseIdentifier="allStoryCell" multipleTouchEnabled="YES">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4709" id="4710">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.995728552341461" green="0.982176601886749" blue="0.806597948074341" alpha="1"/>
+                                <color key="tintColor" colorSpace="custom" customColorSpace="sRGB" red="0.998972237110138" green="0.770805835723877" blue="0.864505469799042" alpha="1"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4705" id="4707"/>
+                            <outlet property="delegate" destination="4705" id="4708"/>
+                        </connections>
+                        <color key="sectionIndexBackgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.8374180198" green="0.8374378085" blue="0.8374271393" alpha="1"/>
+                        <color key="sectionIndexColor" colorSpace="custom" customColorSpace="sRGB" red="0.5810584426" green="0.1285524964" blue="0.5745313764" alpha="1"/>
+                        <color key="sectionIndexTrackingBackgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.5810584426" green="0.1285524964" blue="0.5745313764" alpha="1"/>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4711" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1251" y="1043"/>
+        </scene>
+        <scene sceneID="10526">
+            <objects>
+                <viewController id="10527" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="10524"/>
+                        <viewControllerLayoutGuide type="bottom" id="10525"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="10528">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.8374180198" green="0.8374378085" blue="0.8374271393" alpha="1"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="10759" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="ghost.jpg">
+                                <rect key="frame" x="0.0" y="114" width="414" height="215"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10760" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="The Cemetery ">
+                                <rect key="frame" x="0.0" y="350" width="414" height="53"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="heavy"/>
+                                <color key="textColor" colorSpace="custom" customColorSpace="sRGB" red="1" green="0.96903258562088" blue="0.726017653942108" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="1" green="0.71265834569931" blue="0.76117604970932" alpha="1"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="10761" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="411" width="414" height="228"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="1" green="0.976064503192902" blue="0.757729470729828" alpha="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <string key="text">Okay so let me get this straight I’m a 15 year old girl who lives in New Zealand, but when this took place I was around 12 years old. In 2016 a couple days before Christmas the worst thing happened to us, we found out my auntie died which was on my dads side and they were very close she was a jockey and she fell off the horse and it crushed her oh and her favourite thing was the smell of Lilly’s (flowers) “this will be useful for later on”, anyway after about 2 years of her death we visited her again for Christmas and we have been here to see her many times but this time it felt different in a way , the air was heavy and I got this wave of dread it was so overwhelming that I had to stay in the car for a bit, once I thought that the bad feeling had calmed down I decided to hop out and look around the cemetery and as I was doing so I smelt a familiar smell like the smell of Lilly’s and at first it was comforting in a way but then I felt like I was being watched but like I could tell that what ever this that was watching me didn’t want me here like I needed to leave so I listened to my gut feeling and booked it back to the rest of my family, not shortly after once all of us were in the car driving back we saw that there was something in the middle of the road so we stopped but the longer we stared at it the more we realised it was my auntie and she looked worried and about 2 seconds later a car comes flying by in full speed and then she disappeared I’ll tell you now it scared me and I couldn’t sleep that night but the longer I thought about it the more I realised that she saved us that day and that she really is looking over at us. Thanks for reading I just wanted to get this off my chest and I know you might not believe me because I wouldn’t if I heard this but it is 110% real and it’s still vividly stuck in my head till this day.</string>
+                                <color key="textColor" colorSpace="custom" customColorSpace="sRGB" red="0.3236978054" green="0.1063579395" blue="0.574860394" alpha="1"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="10762" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="664" width="414" height="52"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.3236978054" green="0.1063579395" blue="0.574860394" alpha="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="heavy"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" colorSpace="custom" customColorSpace="sRGB" red="1" green="0.976064503192902" blue="0.757729470729828" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="11049" destination="BYZ-38-t0r" kind="show"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10529" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1860" y="-8"/>
+        </scene>
+        <scene sceneID="11731">
+            <objects>
+                <viewController id="11732" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="11729"/>
+                        <viewControllerLayoutGuide type="bottom" id="11730"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="11733">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.8374180198" green="0.8374378085" blue="0.8374271393" alpha="1"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Dead Eyes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="11969" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="327" width="414" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="heavy"/>
+                                <color key="textColor" colorSpace="custom" customColorSpace="sRGB" red="1" green="0.951806604862213" blue="0.775896370410919" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="1" green="0.703410923480988" blue="0.788962543010712" alpha="1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="12204" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="alien.png">
+                                <rect key="frame" x="0.0" y="87" width="414" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="12205" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="398" width="414" height="218"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="1" green="0.951806604862213" blue="0.775896370410919" alpha="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <color key="textColor" colorSpace="custom" customColorSpace="sRGB" red="0.3236978054" green="0.1063579395" blue="0.574860394" alpha="1"/>
+                                <string key="text">I'm truly dead now. Whether I like It or not there is no escape. It's grotesque hand is wrapped around my throat and I can feel it's grip tightening as time keeps on going. It's appearance is formal but despite that it still has a truly horrifying figure. 
+It's tall but it has a lanky body at the same time. It's empty black sockets void of any eyes somehow still stare into my soul. This creature or this demon whatever it is it has the appearance of something hellish.
+ It wears an incredibly long red tuxedo but from a distance you wouldn't know it's red because of how dirty it is. The creature now holds my throat tighter and now it's jaw begins to unhinge  getting wider with every passing second. It's mouth gets nearer to my head and I know what is about to happen. I smile because I know I have finally completed the ritual. 
+Even if I'm about to die I still completed what I was meant to do all along. 
+“My Lord and savior is now on Earth because of me. Dead Eyes is now here.”</string>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="12206" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="639" width="414" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.3236978054" green="0.1063579395" blue="0.574860394" alpha="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="heavy"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" colorSpace="custom" customColorSpace="sRGB" red="1" green="0.951806604862213" blue="0.775896370410919" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="13297" destination="BYZ-38-t0r" kind="show"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="11734" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="1047"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coverpage.jpg" width="5939" height="3965"/>
+        <image name="snakes.png" width="1280" height="882"/>
+        <image name="ghost.jpg" width="1920" height="1280"/>
+        <image name="alien.png" width="1890" height="1920"/>
+    </resources>
+    <color key="tintColor" colorSpace="custom" customColorSpace="sRGB" red="0.5810584426" green="0.1285524964" blue="0.5745313764" alpha="1"/>
+</document>

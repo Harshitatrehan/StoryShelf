@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryShelf", "StoryShelf\StoryShelf.csproj", "{CF405436-75FC-4A84-84FD-F7BD27C477DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF405436-75FC-4A84-84FD-F7BD27C477DB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CF405436-75FC-4A84-84FD-F7BD27C477DB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CF405436-75FC-4A84-84FD-F7BD27C477DB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{CF405436-75FC-4A84-84FD-F7BD27C477DB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{CF405436-75FC-4A84-84FD-F7BD27C477DB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{CF405436-75FC-4A84-84FD-F7BD27C477DB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{CF405436-75FC-4A84-84FD-F7BD27C477DB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{CF405436-75FC-4A84-84FD-F7BD27C477DB}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal
