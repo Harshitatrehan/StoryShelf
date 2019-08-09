@@ -1,10 +1,10 @@
-using Foundation;
-using System;
-using UIKit;
-using System.Collections.Generic;
+    using Foundation;
+    using System;
+    using UIKit;
+    using System.Collections.Generic;
 
-namespace StoryShelf
-{
+    namespace StoryShelf
+    {
     public partial class EntryFieldVC : UIViewController
     {
 
@@ -18,11 +18,13 @@ namespace StoryShelf
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            //implementing the save button and adding data 
             savebtn.TouchUpInside += (object sender, EventArgs e) =>
             {
                 StoryInfo newStory = new StoryInfo(storytitle.Text , storycontent.Text);
                 allTitle.Add(newStory);
                 string infoString = "Title:" + newStory.title + "Content" + newStory.content;
+                //adding alert when the data is stored successfully 
                 var alert = UIAlertController.Create("New Title Added", infoString, UIAlertControllerStyle.Alert);
                 alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, null));
                 PresentViewController(alert, true, null);
@@ -36,6 +38,7 @@ namespace StoryShelf
             // Release any cached data, images, etc that aren't in use.
         }
 
+        //function to shift from one screen to the other 
         public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {
             base.PrepareForSegue(segue, sender);
@@ -47,4 +50,4 @@ namespace StoryShelf
             }
         }
     }
-}
+    }
