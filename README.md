@@ -17,5 +17,13 @@ The StoryShelf is an ios application which is created using C# and .NET framewor
 
 - EntryFieldVC.cs: StoryShelf/EntryFieldVC.cs.Store and save the data entered by the user in the text field and text views and displays the conformation message in the form of alert once the user presses the save button.
 
+# Features Of The Application 
+- App fully responsive in nature.The app adjusts in portrait mode on all iOS Devices.
+- Proper Navigation.The app has complete navigation to shift from one UI screen to the other. 
+- Use Of Table view.The application uses table view to get data from the user and displays them in the form of list.
+- Delete Mode enabled for list.The application contains option to save the stories for the user and also to display the saved stories in the form of lists.The list items can be deleted as per the user requirements and choices.
+- Interactive Colors and UI elements added.The application makes use of proper colour scheme which makes the apps looks vibrant and the uses UI elements like labels, buttons, textfields , text view. 
+- Images added in Image View to increase the User experience. Also, the application has splash screen and icon to enhance the appearance of the application.
+
 
 
