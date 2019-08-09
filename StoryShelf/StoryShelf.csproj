@@ -100,7 +100,6 @@
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
-        <InterfaceDefinition Include="Main.storyboard" />
     </ItemGroup>
     <ItemGroup>
         <None Include="Info.plist" />
@@ -142,6 +141,7 @@
         <Compile Include="RomanceVC.designer.cs">
           <DependentUpon>RomanceVC.cs</DependentUpon>
         </Compile>
+        <Compile Include="Main.storyboard" />
     </ItemGroup>
     <ItemGroup>
       <BundleResource Include="Resources\coverpage.jpg" />

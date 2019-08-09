@@ -351,7 +351,7 @@ The Princess killed both the snakes with all her courage. When her husband woke 
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
-                                <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.995728552341461" green="0.982176601886749" blue="0.806597948074341" alpha="1"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="1" alpha="1"/>
                                 <color key="tintColor" colorSpace="custom" customColorSpace="sRGB" red="0.998972237110138" green="0.770805835723877" blue="0.864505469799042" alpha="1"/>
                             </tableViewCell>
                         </prototypes>
